@@ -1,0 +1,23 @@
+{
+	"name": "limanmys/Taskmanager",
+	"description": "Taskmanager",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Doğukan ÖKSÜZ",
+			"email": "doksuz@havelsan.com.tr"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"files": [
+			"app/Helpers/Helpers.php"
+		],
+		"psr-4": {
+			"App\\": "app"
+		},
+		"classmap": [
+			"app"
+		]
+	}
+}
